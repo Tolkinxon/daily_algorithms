@@ -27,7 +27,7 @@ function descendingOrder(n){
   ```
 ---
 
-[2. Removing same item?](https://www.codewars.com/kata/5467e4d82edf8bbf40000155/train/javascript)
+[2. Removing same item?](https://www.codewars.com/kata/523f5d21c841566fde000009/train/javascript)
 
 Solution
 ```js
