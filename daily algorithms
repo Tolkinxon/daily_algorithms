@@ -25,3 +25,4 @@ function descendingOrder(n){
 
   console.log(descendingOrder(79248088));
   ```
+---
