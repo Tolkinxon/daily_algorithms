@@ -1,3 +1,8 @@
+[1. Friend or Foe?](https://www.codewars.com/kata/55b42574ff091733d900002f/train/javascript)
+
+Solution
+```js
+
 # React_JSX
 learn JSX practice first practica
 function descendingOrder(n){
