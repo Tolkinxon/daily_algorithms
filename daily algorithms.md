@@ -54,3 +54,28 @@ function arrayDiff(a, b) {
  
    ```
 ---
+
+[2. Removing same item?](https://www.codewars.com/kata/5656b6906de340bd1b0000ac/train/javascript))
+
+Solution
+```js
+
+function longest(s1, s2) {
+
+  const sum = s1 + s2
+
+  const validating = 'abcdefghijklmnopqrstuvwxyz'
+
+  separatingLetter = ''
+
+  for(key of validating){
+    if(sum.includes(`${key}`))
+        separatingLetter += key
+  }
+
+  return separatingLetter
+
+}
+```
+
+---
