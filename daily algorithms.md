@@ -103,5 +103,39 @@ function rowSumOddNumbers(n) {
 ```
 ---
 
+[5. Build cone with stars?](https://www.codewars.com/kata/576757b1df89ecf5bd00073b/train/javascript).
+
+
+
+Solution
+```js 
+function towerBuilder(n){
+    const arr = []
+    let odd = 1
+    let value = '*'
+    let valeSpace = ' '
+
+    for(let i = 1; i <= n; i++){
+
+        const a = ((n * 2 - 1 ) - odd) / 2
+
+        const valSpace = valeSpace.repeat(a) 
+        const valStar = value.repeat(odd)
+        let val = valSpace + valStar + valSpace
+
+        odd += 2
+
+        arr[i - 1] = val
+    }
+
+    return arr
+}
+
+
+
+```
+
+
+
 
 
