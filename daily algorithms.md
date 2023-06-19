@@ -25,7 +25,6 @@ function descendingOrder(n){
 
   console.log(descendingOrder(79248088));
   ```
----
 
 [2. Removing same item?](https://www.codewars.com/kata/523f5d21c841566fde000009/train/javascript)
 
