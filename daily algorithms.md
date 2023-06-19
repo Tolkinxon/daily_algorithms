@@ -134,6 +134,16 @@ function towerBuilder(n){
 
 
 ```
+---
+
+[5. Find this is a triangle or no?](https://www.codewars.com/kata/56606694ec01347ce800001b/train/javascript)
+
+Solution
+
+```js 
+const isTriangle = (a,b,c) =>  a + b > c && a + c > b && b + c > a ? true : false
+
+```
 
 
 
