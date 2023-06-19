@@ -25,6 +25,7 @@ function descendingOrder(n){
 
   console.log(descendingOrder(79248088));
   ```
+---
 
 [2. Removing same item?](https://www.codewars.com/kata/523f5d21c841566fde000009/train/javascript)
 
@@ -76,5 +77,31 @@ function longest(s1, s2) {
 
 }
 ```
-
 ---
+
+[4. Finding sum of choosing row pyramid of odd numbers?](https://www.codewars.com/kata/55fd2d567d94ac3bc9000064/train/javascript)
+
+
+Solution
+```js
+function rowSumOddNumbers(n) {
+
+    let sum = 1
+    let Sum = 0
+	for(let i = 1; i <= n; i++){
+        for(let j = 1; j <= i; j++){
+            if(i === n){
+                Sum += sum
+            }
+            sum += 2
+        }
+    }
+
+    return Sum
+}
+
+```
+---
+
+
+
