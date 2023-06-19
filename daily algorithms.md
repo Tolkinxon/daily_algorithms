@@ -55,7 +55,7 @@ function arrayDiff(a, b) {
    ```
 ---
 
-[3. reordering letters?](https://www.codewars.com/kata/5656b6906de340bd1b0000ac/train/javascript))
+[3. Reordering letters?](https://www.codewars.com/kata/5656b6906de340bd1b0000ac/train/javascript)
 
 Solution
 ```js
