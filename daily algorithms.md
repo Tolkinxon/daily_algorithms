@@ -235,7 +235,7 @@ function isPangram(string){
 
 
 
-[9. Multiply roummate numbers.](https://www.codewars.com/kata/55bf01e5a717a0d57e0000ec/train/javascript)
+[9. Multiply roommate numbers.](https://www.codewars.com/kata/55bf01e5a717a0d57e0000ec/train/javascript)
 ```js
 function persistence(num) {
     let sumRepeating  = 0
