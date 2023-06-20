@@ -144,6 +144,30 @@ Solution
 const isTriangle = (a,b,c) =>  a + b > c && a + c > b && b + c > a ? true : false
 
 ```
+---
+
+
+[6. Changing string letters](https://www.codewars.com/kata/520b9d2ad5c005041100000f/train/javascript)
+```js 
+function pigIt(str){
+    const arr = str.split(' ')
+    const arrChanged = arr.map(item => {
+        if(item === '!' || item === '?' ){
+            return item
+        }
+        else{
+      return item.slice(1) + item[0] + 'ay'
+
+        }
+    })
+    return arrChanged.join(' ')
+}
+
+console.log(pigIt('Pig latin is cool !'));
+
+
+```
+---
 
 
 
