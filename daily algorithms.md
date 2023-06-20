@@ -235,5 +235,33 @@ function isPangram(string){
 
 
 
+[9. Multiply roummate numbers.](https://www.codewars.com/kata/55bf01e5a717a0d57e0000ec/train/javascript)
+```js
+function persistence(num) {
+    let sumRepeating  = 0
+    let num2 = num + ''
+    let multiply = 1
+
+
+
+        if(num2.length === 1){
+            return sumRepeating
+        }
+        else{
+            while(num2.length > 1){
+                const arr = num2.split('')
+                arr.map(item => multiply *= +item)
+                num2 = multiply + ''
+                multiply = 1
+                sumRepeating++
+            }
+        }
+          return sumRepeating
+
+ }
+```
+---
+
+
 
 
