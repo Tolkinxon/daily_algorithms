@@ -170,7 +170,7 @@ console.log(pigIt('Pig latin is cool !'));
 ---
 
 
-[7. ddddd](https://www.codewars.com/kata/545cedaa9943f7fe7b000048/train/javascript)
+[7. isPanga checking function](https://www.codewars.com/kata/545cedaa9943f7fe7b000048/train/javascript)
 ```js
 function isPangram(string){
     const base = 'abcdefghijklmnopqrstuvwxyz'
@@ -184,6 +184,14 @@ function isPangram(string){
     }
     return true
   }
+```
+---
+
+
+[8. ggggggg]
+```js 
+
+
 ```
 
 
