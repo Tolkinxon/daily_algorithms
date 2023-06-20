@@ -188,8 +188,46 @@ function isPangram(string){
 ---
 
 
-[8. ggggggg]
-```js 
+[8. ggggggg](https://www.codewars.com/kata/54da5a58ea159efa38000836/train/javascript)
+```js
+  function findOdd(Arr) {
+
+    const oddTime = {}
+
+    let differentNumber = ''
+    const differentNumberArr = []
+
+    Arr.sort((a, b) => a - b).map(item => {
+        if(item !== differentNumber){
+            differentNumber = item
+            differentNumberArr.push(differentNumber)
+        }
+    })
+
+
+
+
+
+    let repeating = 0
+    for(let i = 0; i < differentNumberArr.length; i++){
+        Arr.map(item => {
+            if(item === differentNumberArr[i]){
+                repeating++
+            }
+        })
+
+        oddTime[`${differentNumberArr[i]}`] = repeating
+        repeating = 0
+
+    }
+
+    for(let key in oddTime){
+       if(oddTime[key] === 1 || oddTime[key] % 2 == 1){
+        return +key
+       }
+    }
+
+  }
 
 
 ```
