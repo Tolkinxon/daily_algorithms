@@ -170,6 +170,23 @@ console.log(pigIt('Pig latin is cool !'));
 ---
 
 
+[7. ddddd](https://www.codewars.com/kata/545cedaa9943f7fe7b000048/train/javascript)
+```js
+function isPangram(string){
+    const base = 'abcdefghijklmnopqrstuvwxyz'
+  
+    let stringLower = string.toLowerCase()
+    
+    for(let key of base){
+      if(!stringLower.includes(key)){
+        return false
+      }
+    }
+    return true
+  }
+```
+
+
 
 
 
