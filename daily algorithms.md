@@ -188,7 +188,7 @@ function isPangram(string){
 ---
 
 
-[8. ggggggg](https://www.codewars.com/kata/54da5a58ea159efa38000836/train/javascript)
+[8. Finding odd times repeating number](https://www.codewars.com/kata/54da5a58ea159efa38000836/train/javascript)
 ```js
   function findOdd(Arr) {
 
@@ -231,6 +231,7 @@ function isPangram(string){
 
 
 ```
+---
 
 
 
