@@ -260,10 +260,27 @@ function persistence(num) {
 
  }
 
-hello world
+
 ```
 ---
 
+
+
+[10. Plays banjo.](https://www.codewars.com/kata/53af2b8861023f1d88000832/train/javascript)
+```js
+function areYouPlayingBanjo(name) {
+    let firthLetter = name[0]
+
+    if(firthLetter.toLowerCase() === 'r'){
+        return `${name} ${'plays banjo'}`;
+    }else{
+        return `${name} ${'does not play banjo'}`;
+    }    
+}
+
+areYouPlayingBanjo('rohan')
+```
+---
 
 
 
