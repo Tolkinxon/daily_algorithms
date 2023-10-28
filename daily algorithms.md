@@ -278,6 +278,8 @@ function areYouPlayingBanjo(name) {
     }    
 }
 
+areYouPlayingBanjo('rohan')
+
 ```
 ---
 
@@ -297,7 +299,7 @@ function makeNegative(num) {
   }
 
 
-areYouPlayingBanjo('rohan')
+
 ```
 ---
 
