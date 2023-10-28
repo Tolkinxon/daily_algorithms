@@ -278,6 +278,25 @@ function areYouPlayingBanjo(name) {
     }    
 }
 
+```
+---
+
+
+
+[11. Make negative](https://www.codewars.com/kata/55685cd7ad70877c23000102/train/javascript)
+
+```js
+function makeNegative(num) {
+   
+    if(0 < num){
+        return -1 * num
+    }
+    if(0 >= num){
+        return num
+    }
+  }
+
+
 areYouPlayingBanjo('rohan')
 ```
 ---
