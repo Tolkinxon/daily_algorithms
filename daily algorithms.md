@@ -298,7 +298,24 @@ function makeNegative(num) {
     }
   }
 
+```
+---
 
+
+
+[12. Make DNA to RNA](https://www.codewars.com/kata/5556282156230d0e5e000089/train/javascript)
+
+```js
+const DNAtoRNA = dna =>  {
+
+    let rna = ''
+
+    for(let i = 0; i < dna.length; i++){
+        dna[i] === 'T' ? rna += 'U' : rna += dna[i]
+    }
+
+    return rna;
+}
 
 ```
 ---
