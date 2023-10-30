@@ -322,3 +322,22 @@ const DNAtoRNA = dna =>  {
 
 
 
+
+
+[13. Find everage](https://www.codewars.com/kata/55cbd4ba903825f7970000f5/train/javascript)
+
+```js
+const  getGrade = (s1, s2, s3) => { 
+    const sum = (s1 + s2 + s3) / 3; 
+   return sum >=90 ? 'A' : 
+          sum < 90 && sum >= 80 ? 'B' :
+          sum < 80 && sum >=70 ? 'C' :
+          sum < 70 && sum >= 60 ? 'D':
+          sum < 60 && sum >= 50 ? 'F' : 'F'
+}
+
+```
+---
+
+
+
