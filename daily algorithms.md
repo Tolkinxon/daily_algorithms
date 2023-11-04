@@ -340,4 +340,36 @@ const  getGrade = (s1, s2, s3) => {
 ---
 
 
+[14 "scissors, paper, rock"](https://www.codewars.com/kata/5672a98bdbdd995fad00000f/train/javascript)
+
+```js
+
+
+const rps = (p1, p2) => {
+    const w = p1 + p2
+
+    if(
+        w[0] === 's' && w[w.length - 1 ] === 'r' ||
+        w[0] === 'p' && w[w.length - 1] === 'k' || 
+        w[0] === 'r' && w[w.length - 1] === 's'
+       ){
+        return 'Player 1 won!'
+    }
+    else if(
+        w[0] === 's' && w[w.length - 1 ] === 's' ||
+        w[0] === 'p' && w[w.length - 1] === 'r' || 
+        w[0] === 'r' && w[w.length - 1] === 'k'
+    ){
+        return 'Draw!'
+    }
+    else{
+        return 'Player 2 won!'
+    }
+
+};
+```
+---
+
+
+
 
