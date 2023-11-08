@@ -414,8 +414,33 @@ function solution(string) {
    return str
     
 }
+
 ```
 ---
+
+
+[17 find norepeating letter](https://www.codewars.com/kata/52bc74d4ac05d0945d00054e/train/javascript)
+
+```js
+function firstNonRepeatingLetter(s) {
+    // Add your code here
+    const arr = [...s]
+
+    const arr2 = arr.filter(item => {
+               
+               return arr.filter( thing => { return item.toLowerCase() === thing.toLowerCase() }  ).length === 1 
+
+             
+            })[0] 
+            
+    return arr2 === undefined ? '' : arr2
+}
+```
+---
+
+
+
+
 
 
 
