@@ -562,7 +562,7 @@ function cuttingSpace(string){
       case '-----': word += '0'; break;
       case '...---...': word += 'SOS'; break;
       case '-.-.--': word += '!'; break;
-      case '.-.-.- ': word += '.'; break;
+      case '.-.-.-': word += '.'; break;
 
   
       case '': word += ' '; break;
