@@ -793,6 +793,109 @@ function parseInt(string) {
 ---
 
 
+
+
+[22 Roman number to simple number and reverse ](https://www.codewars.com/kata/51b66044bce5799a7f000003/train/javascript)
+
+```js
+
+const listOfNumbers = {
+    "0": '',
+    "00": '',
+    "000": '',
+    "1": 'I',
+    "2": 'II',
+    "3": 'III',
+    "4": 'IV',
+    "5": 'V',
+    "6": 'VI',
+    "7": 'VII',
+    "8": 'VIII',
+    "9": 'IX',
+    "10": 'X',
+    "20": 'XX',
+    "30": 'XXX',
+    "40": 'XL',
+    "50": 'L',
+    "60": 'LX',
+    "70": 'LXX',
+    "80": 'LXXX',
+    "90": 'XC',
+    "100": 'C',
+    "200": 'CC',
+    "300": 'CCC',
+    "400": 'CD',
+    "500": 'D',
+    "600": 'DC',
+    "700": 'DCC',
+    "800": 'DCCC',
+    "900": 'CM',
+    "1000": 'M',
+    "2000": 'MM',
+    "3000": 'MMM',
+    "4000": 'MMMM',
+}
+
+const listOfRomanNumbers = {
+    "I": '1',
+    "V": '5',
+    "X": '10',
+    "L": '50',
+    "C": '100',
+    "D": '500',
+    "M": '1000',
+}
+
+
+
+class RomanNumerals {
+    static toRoman(num) {
+        const stringNum = `${num}`.split('')
+
+        let result = ''
+        
+        stringNum.forEach((item, idx, arr) => {
+     
+        const numWidthZero = item.padEnd((arr.length - idx), '0')
+
+        result += listOfNumbers[numWidthZero]
+       })
+       return result
+    }
+
+  
+    static fromRoman(str) {
+    
+        const romanNumbersArr = str.split('')
+
+        const changedRomeNumbers = romanNumbersArr.map(item => {
+            return +listOfRomanNumbers[item]
+        })
+
+        for (let i = 0; i < changedRomeNumbers.length; i++) {
+            if(changedRomeNumbers[i] < changedRomeNumbers[i + 1]){
+                changedRomeNumbers[i] = +`-${changedRomeNumbers[i]}`
+            }
+        }
+
+        let result = 0
+
+        changedRomeNumbers.forEach(item => result += item)
+        return result
+    }
+  }
+
+
+
+
+
+```
+---
+
+
+ 
+
+
  
 
 
